@@ -1,101 +1,224 @@
-export default function Details() {
+"use client";
+import React, { useState } from "react";
+import data from "data.js";
+const Details = () => {
+  const [Modal, setModal] = useState(-1);
+  const [Show, setShow] = useState("flex");
+  const handleClick = () => {
+    setModal(-1);
+    Show == "flex" ? setShow("hidden") : setShow("flex");
+  };
   return (
-    <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-12">
+    <>
+      {Modal != -1 && (
         <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900 ">
-            <svg
-              className="w-7 h-7 text-blue-600 dark:text-blue-500"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z" />
-              <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
-            </svg>
-          </div>
-          <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              Responsive
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              Responsive, and mobile-first project on the web
-            </p>
+          <div
+            id="modal"
+            className={
+              "fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full justify-center items-center " +
+              Show
+            }
+          >
+            <div className="relative w-full h-full max-w-2xl md:h-auto">
+              <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                <div className="flex items-center justify-between p-5 border-b rounded-t border-gray-500">
+                  <h3 className="text-4xl font-medium text-gray-900 dark:text-white">
+                    {data[Modal].name}
+                  </h3>
+
+                  <button
+                    onClick={handleClick}
+                    type="button"
+                    className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    data-modal-hide="small-modal"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    <span className="sr-only">Close modal</span>
+                  </button>
+                </div>
+                <div className="p-6 space-y-3">
+                  <h2 className="mb-1 text-2xl font-semibold text-gray-100">
+                    Rules
+                  </h2>
+                  <ol className="max-w-xl space-y-1 text-xl text-gray-300 list-decimal list-inside">
+                    {data[Modal].rules.map((rule) => (
+                      <li key={rule}>{rule}</li>
+                    ))}
+                  </ol>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-            <svg
-              className="w-7 h-7 text-blue-600 dark:text-blue-500"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path d="M9.465 10H12a2 2 0 1 1 0 4H9.465c.34-.588.535-1.271.535-2 0-.729-.195-1.412-.535-2z" />
-              <path d="M6 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm.535-10a3.975 3.975 0 0 1-.409-1H4a1 1 0 0 1 0-2h2.126c.091-.355.23-.69.41-1H4a2 2 0 1 0 0 4h2.535z" />
-              <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
-            </svg>
-          </div>
-          <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              Customizable
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              Components are easily customized and extendable
-            </p>
+      )}
+      <section>
+        <div className="py-8 ml-2 md:ml-5">
+          <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
+            <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+              <p className="text-3xl md:text-4xl mb-3 text-yellow-300 uppercase tracking-loose">
+                Timeline
+              </p>
+              {/* <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">
+              Working Process of Fest
+            </p> */}
+              <p className="text-sm md:text-base text-gray-50 mb-4">
+                Here's your guide to the brain rush 2023 process. Go through all
+                the steps to know the exact process of the fest.
+              </p>
+            </div>
+            <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
+              <div className="container mx-auto w-full h-full">
+                <div className="relative wrap overflow-hidden p-10 h-full">
+                  <div
+                    className="border-2-2 border-yellow-555 absolute h-full border"
+                    style={{
+                      right: "50%",
+                      border: "2px solid #FFC100",
+                      borderRadius: "1%",
+                    }}
+                  />
+                  <div
+                    className="border-2-2 border-yellow-555 absolute h-full border"
+                    style={{
+                      left: "50%",
+                      border: "2px solid #FFC100",
+                      borderRadius: "1%",
+                    }}
+                  />
+                  <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <p className="mb-3 text-base text-yellow-300">
+                        10:00 - 10:30
+                      </p>
+                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                        Inauguration
+                      </h4>
+                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                        Lighting of the Lamp & Dignitaries' Speech
+                      </p>
+                    </div>
+                  </div>
+                  <div className="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1  w-5/12 px-1 py-4 text-left">
+                      <p className="mb-3 text-base text-yellow-300">
+                        11:00 - 11:30
+                      </p>
+                      <h4 className="mb-5 font-bold text-lg md:text-2xl">
+                        CODIFY - Round I
+                      </h4>
+                      <button
+                        onClick={() => {
+                          setModal(0);
+                          Show == "flex" ? setShow("hidden") : setShow("flex");
+                        }}
+                        data-modal-hide="small-modal"
+                        type="button"
+                        className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                      >
+                        Explore Now
+                      </button>
+                    </div>
+                  </div>
+                  <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <p className="mb-3 text-base text-yellow-300">
+                        12:50 - 13:20
+                      </p>
+                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                        Lunch Time
+                      </h4>
+                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                        Refreshments will be offered from our side to the
+                        qualifying teams.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1 w-5/12 px-1 py-4 text-left">
+                      <p className="mb-3 text-base text-yellow-300">
+                        13:20 - 14:00
+                      </p>
+                      <h4 className="mb-5 font-bold text-lg md:text-2xl">
+                        PSEUDO-SIAN
+                      </h4>
+                      <button
+                        onClick={() => {
+                          setModal(1);
+                          Show == "flex" ? setShow("hidden") : setShow("flex");
+                        }}
+                        data-modal-hide="small-modal"
+                        type="button"
+                        className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                      >
+                        Explore Now
+                      </button>
+                    </div>
+                  </div>
+                  <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <p className="mb-3 text-base text-yellow-300">
+                        14:15 - 15:15
+                      </p>
+                      <h4 className="mb-5 font-bold text-lg md:text-2xl">
+                        CODATOR
+                      </h4>
+                      <button
+                        onClick={() => {
+                          setModal(2);
+                          Show == "flex" ? setShow("hidden") : setShow("flex");
+                        }}
+                        data-modal-hide="small-modal"
+                        type="button"
+                        className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                      >
+                        Explore Now
+                      </button>
+                    </div>
+                  </div>
+                  <div className="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1  w-5/12 px-1 py-4">
+                      <p className="mb-3 text-base text-yellow-300">
+                        15:30 - 16:00
+                      </p>
+                      <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
+                        Prize Distribution
+                      </h4>
+                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                        The winners will be announced by our team and prizes
+                        would be distributed.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  className="mx-auto -mt-36 md:-mt-36"
+                  src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
+                />
+              </div>
+            </div>
           </div>
         </div>
-        <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-            <svg
-              className="w-7 h-7 text-blue-600 dark:text-blue-500"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z" />
-              <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
-            </svg>
-          </div>
-          <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              Documentation
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              Every component and plugin is well documented
-            </p>
-          </div>
-        </div>
-        <div>
-          <div className="relative flex justify-center items-center w-12 h-12 bg-white rounded-xl before:absolute before:-inset-px before:-z-[1] before:bg-gradient-to-br before:from-blue-600 before:via-transparent before:to-violet-600 before:rounded-xl dark:bg-slate-900">
-            <svg
-              className="w-7 h-7 text-blue-600 dark:text-blue-500"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
-              <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-            </svg>
-          </div>
-          <div className="mt-5">
-            <h3 className="text-lg font-semibold text-gray-800 dark:text-white">
-              24/7 Support
-            </h3>
-            <p className="mt-1 text-gray-600 dark:text-gray-400">
-              Contact us 24 hours a day, 7 days a week
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
-}
+};
+
+export default Details;
