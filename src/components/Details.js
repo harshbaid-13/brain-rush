@@ -20,16 +20,16 @@ const Details = () => {
             }
           >
             <div className="relative w-full h-full max-w-2xl md:h-auto">
-              <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
+              <div className="relative rounded-lg shadow bg-gray-700">
                 <div className="flex items-center justify-between p-5 border-b rounded-t border-gray-500">
-                  <h3 className="text-4xl font-medium text-gray-900 dark:text-white">
+                  <h3 className="text-4xl font-medium text-white">
                     {data[Modal].name}
                   </h3>
 
                   <button
                     onClick={handleClick}
                     type="button"
-                    className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                    className="text-gray-400 bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-gray-600 hover:text-white"
                     data-modal-hide="small-modal"
                   >
                     <svg
