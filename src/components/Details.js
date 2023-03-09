@@ -103,7 +103,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-yellow-300">
                         10:00 - 10:30
                       </p>
-                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
                         Inauguration
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -117,8 +117,8 @@ const Details = () => {
                       <p className="mb-3 text-base text-yellow-300">
                         11:00 - 11:30
                       </p>
-                      <h4 className="mb-5 font-bold text-lg md:text-2xl">
-                        CODIFY - Round I
+                      <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
+                        CODIFY
                       </h4>
                       <button
                         onClick={() => {
@@ -139,7 +139,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-yellow-300">
                         12:50 - 13:20
                       </p>
-                      <h4 className="mb-3 font-bold text-lg md:text-2xl">
+                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
                         Lunch Time
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -154,7 +154,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-yellow-300">
                         13:20 - 14:00
                       </p>
-                      <h4 className="mb-5 font-bold text-lg md:text-2xl">
+                      <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         PSEUDO-SIAN
                       </h4>
                       <button
@@ -176,7 +176,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-yellow-300">
                         14:15 - 15:15
                       </p>
-                      <h4 className="mb-5 font-bold text-lg md:text-2xl">
+                      <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         CODATOR
                       </h4>
                       <button
@@ -198,7 +198,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-yellow-300">
                         15:30 - 16:00
                       </p>
-                      <h4 className="mb-3 font-bold  text-lg md:text-2xl text-left">
+                      <h4 className="mb-3 font-bold   text-gray-100 text-lg md:text-2xl text-left">
                         Prize Distribution
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">

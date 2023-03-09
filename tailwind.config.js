@@ -10,6 +10,23 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      logoYellow: "#ffbd59",
+      background: "#0f172a",
+      white: "#fff",
+      gray: {
+        50: "#f9fafb",
+        100: "#f3f4f6",
+        400: "#9ca3af",
+        500: "#6b7280",
+        600: "#4b5563",
+        700: "#374151",
+      },
+      yellow: {
+        300: "#fde047",
+        500: "#eab308",
+      },
+    },
   },
   plugins: [],
 };
