@@ -52,7 +52,7 @@ const Details = () => {
                   <h2 className="mb-1 text-2xl font-semibold text-gray-100">
                     Rules
                   </h2>
-                  <ol className="max-w-xl space-y-1 text-xl text-gray-300 list-decimal list-inside">
+                  <ol className="max-w-xl space-y-1 text-xl text-gray-100 list-decimal list-inside">
                     {data[Modal].rules.map((rule) => (
                       <li key={rule}>{rule}</li>
                     ))}
