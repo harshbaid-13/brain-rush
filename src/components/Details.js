@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import data from "data.js";
+import Image from "next/image";
 const Details = () => {
   const [Modal, setModal] = useState(-1);
   const [Show, setShow] = useState("flex");
@@ -208,9 +209,12 @@ const Details = () => {
                     </div>
                   </div>
                 </div>
-                <img
+                <Image
                   className="mx-auto -mt-36 md:-mt-36"
                   src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
+                  alt="svg-modal"
+                  width="300"
+                  height="300"
                 />
               </div>
             </div>
