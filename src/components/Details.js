@@ -75,8 +75,8 @@ const Details = () => {
               Working Process of Fest
             </p> */}
               <p className="text-sm md:text-base text-gray-50 mb-4">
-                Here's your guide to the brain rush 2023 process. Go through all
-                the steps to know the exact process of the fest.
+                Here&apos;s your guide to the brain rush 2023 process. Go
+                through all the steps to know the exact process of the fest.
               </p>
             </div>
             <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
@@ -108,7 +108,7 @@ const Details = () => {
                         Inauguration
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Lighting of the Lamp & Dignitaries' Speech
+                        Lighting of the Lamp & Dignitaries&apos; Speech
                       </p>
                     </div>
                   </div>
