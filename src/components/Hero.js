@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import logo from "src/images/logo.png";
+import Buttons from "./Buttons";
 const Hero = () => {
   const [timerDays, setTimerDays] = useState("00");
   const [timerHours, setTimerHours] = useState("00");
@@ -89,6 +90,7 @@ const Hero = () => {
               />
             </svg>
           </a>
+          <Buttons title={"REGISTER"} />
         </div>
         <div className="hidden lg:-mt-24 lg:col-span-5 lg:flex">
           <Image src={logo} alt="logo" width="500" height="500" />
