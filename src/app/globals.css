@@ -20,5 +20,6 @@
   border-radius: 0.4rem;
   /* border: 0.5px solid rgb(71 85 105 / 0.6); */
 }
+
 @tailwind components;
 @tailwind utilities;
