@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Details from "@/components/Details";
 import FAQ from "@/components/FAQ";
@@ -7,8 +8,9 @@ export default function Page() {
   return (
     <>
       <Hero />
+      <About />
       <Details />
-      <Contact />
+      {/* <Contact /> */}
       <FAQ />
       <Footer />
     </>
