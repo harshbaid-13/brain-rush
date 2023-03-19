@@ -41,8 +41,8 @@ const FAQ = () => {
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
               <span>
-                Can I register for the event as an individual if I don't have a
-                team?
+                Can I register for the event as an individual if I don&apos;t
+                have a team?
               </span>
               <span className="transition">
                 <svg
