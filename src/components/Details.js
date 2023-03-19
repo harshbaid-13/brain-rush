@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import data from "data.js";
 import Image from "next/image";
+import Buttons from "./Buttons";
 const Details = () => {
   const [Modal, setModal] = useState(-1);
   const [Show, setShow] = useState("flex");
@@ -128,9 +129,9 @@ const Details = () => {
                         }}
                         data-modal-hide="small-modal"
                         type="button"
-                        className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                        // className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
                       >
-                        Explore Now
+                        <Buttons title={"Explore Now"} />
                       </button>
                     </div>
                   </div>
@@ -165,9 +166,9 @@ const Details = () => {
                         }}
                         data-modal-hide="small-modal"
                         type="button"
-                        className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                        // className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
                       >
-                        Explore Now
+                        <Buttons title={"Explore Now"} />
                       </button>
                     </div>
                   </div>
@@ -187,9 +188,9 @@ const Details = () => {
                         }}
                         data-modal-hide="small-modal"
                         type="button"
-                        className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                        // className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
                       >
-                        Explore Now
+                        <Buttons title={"Explore Now"} />
                       </button>
                     </div>
                   </div>

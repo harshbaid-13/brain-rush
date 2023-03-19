@@ -1,25 +1,21 @@
-li {
+.custom-button-li {
   list-style: none;
   --c: #ffbd59;
   color: var(--c);
-  font-size: 16px;
-  border: 0.3em solid var(--c);
+  border: 0.1em solid var(--c);
   border-radius: 0.5em;
-  width: 12rem;
-  text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   font-family: sans-serif;
   letter-spacing: 0.1em;
   text-align: center;
-  line-height: 3em;
+  line-height: 1em;
   position: relative;
   overflow: hidden;
   z-index: 1;
   transition: 0.5s;
-  margin: 1em;
 }
 
-li span {
+.custom-button-li span {
   position: absolute;
   width: 25%;
   height: 100%;
@@ -32,26 +28,26 @@ li span {
   z-index: -1;
 }
 
-li:hover {
-  color: black;
+.custom-button-li:hover {
+  color: #0f172a;
 }
 
-li:hover span {
+.custom-button-li:hover span {
   transform: translateY(0) scale(2);
 }
 
-li span:nth-child(1) {
+.custom-button-li span:nth-child(1) {
   --n: 1;
 }
 
-li span:nth-child(2) {
+.custom-button-li span:nth-child(2) {
   --n: 2;
 }
 
-li span:nth-child(3) {
+.custom-button-li span:nth-child(3) {
   --n: 3;
 }
 
-li span:nth-child(4) {
+.custom-button-li span:nth-child(4) {
   --n: 4;
 }
