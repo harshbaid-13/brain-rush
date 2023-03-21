@@ -12,7 +12,7 @@ const Hero = () => {
   let interval = useRef();
 
   const setTimer = () => {
-    const countDownDate = new Date("Mar 30, 2023 09:00:00").getTime();
+    const countDownDate = new Date("April 06, 2023 09:00:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;

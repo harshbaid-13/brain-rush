@@ -69,7 +69,7 @@ const Details = () => {
         <div className="py-8 ml-2 md:ml-5">
           <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
             <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
-              <p className="text-3xl md:text-4xl mb-3 text-yellow-300 uppercase tracking-loose">
+              <p className="text-3xl md:text-4xl mb-3 text-logoYellow uppercase tracking-loose">
                 Timeline
               </p>
               {/* <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">
@@ -84,25 +84,25 @@ const Details = () => {
               <div className="container mx-auto w-full h-full">
                 <div className="relative wrap overflow-hidden p-10 h-full">
                   <div
-                    className="border-2-2 border-yellow-555 absolute h-full border"
+                    className="border-2-2 border-logoYellow absolute h-full border"
                     style={{
                       right: "50%",
-                      border: "2px solid #FFC100",
+                      border: "2px solid #FFBD59",
                       borderRadius: "1%",
                     }}
                   />
                   <div
-                    className="border-2-2 border-yellow-555 absolute h-full border"
+                    className="border-2-2 border-logoYellow absolute h-full border"
                     style={{
                       left: "50%",
-                      border: "2px solid #FFC100",
+                      border: "2px solid #FFBD59",
                       borderRadius: "1%",
                     }}
                   />
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 text-base text-yellow-300">
+                      <p className="mb-3 text-base text-logoYellow">
                         10:00 - 10:30
                       </p>
                       <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
@@ -116,7 +116,7 @@ const Details = () => {
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
-                      <p className="mb-3 text-base text-yellow-300">
+                      <p className="mb-3 text-base text-logoYellow">
                         11:00 - 11:30
                       </p>
                       <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
@@ -138,7 +138,7 @@ const Details = () => {
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 text-base text-yellow-300">
+                      <p className="mb-3 text-base text-logoYellow">
                         12:50 - 13:20
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
@@ -153,7 +153,7 @@ const Details = () => {
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-left">
-                      <p className="mb-3 text-base text-yellow-300">
+                      <p className="mb-3 text-base text-logoYellow">
                         13:20 - 14:00
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
@@ -175,7 +175,7 @@ const Details = () => {
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
-                      <p className="mb-3 text-base text-yellow-300">
+                      <p className="mb-3 text-base text-logoYellow">
                         14:15 - 15:15
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
@@ -197,7 +197,7 @@ const Details = () => {
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4">
-                      <p className="mb-3 text-base text-yellow-300">
+                      <p className="mb-3 text-base text-logoYellow">
                         15:30 - 16:00
                       </p>
                       <h4 className="mb-3 font-bold   text-gray-100 text-lg md:text-2xl text-left">

@@ -3,14 +3,13 @@ import Image from "next/image";
 import About1 from "./../images/About1.jpeg";
 import About2 from "./../images/About2.jpeg";
 import About3 from "./../images/About3.jpeg";
+import Heading from "./Heading";
 
 function About() {
   return (
     <>
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] px-5 sm:px-20">
-        <h1 className="text-gray-50 text-4xl font-bold sm:text-9xl text-center mb-20">
-          About <span className="text-logoYellow">Event</span>
-        </h1>
+        <Heading title="About " subtitle="Us" />
         <div className="container mx-auto">
           <div className="-mx-4 flex flex-wrap items-center justify-between">
             <div className="w-full px-4 lg:w-6/12">
@@ -619,8 +618,8 @@ function About() {
                   matches your business.
                 </p>
 
-                <h1 className="text-logoYellow font-bold sm:text-5xl text-3xl">
-                  30th March 2K23
+                <h1 className="text-gray-50 font-bold sm:text-5xl text-3xl">
+                  06th April 2K23
                 </h1>
               </div>
             </div>
