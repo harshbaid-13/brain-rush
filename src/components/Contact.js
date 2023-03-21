@@ -7,22 +7,22 @@ import Heading from "./Heading";
 
 const Contact = () => {
   return (
-    <section class="relative z-10 overflow-hidden bg-background pb-20 pt-9 px-4 md:px-32 lg:py-[120px]">
+    <section className="relative z-10 overflow-hidden bg-background pb-20 pt-9 px-4 md:px-32 lg:py-[120px]">
       <Heading title="Contact " subtitle="Us" />
-      <div class="container mx-auto">
-        <div class="-mx-4 flex flex-wrap lg:justify-between">
-          <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
-            <div class="mb-12 max-w-[570px] lg:mb-0">
-              <h2 class="text-gray-50 mb-20 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
+      <div className="container mx-auto">
+        <div className="-mx-4 flex flex-wrap lg:justify-between">
+          <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
+            <div className="mb-12 max-w-[570px] lg:mb-0">
+              <h2 className="text-gray-50 mb-20 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                 GET IN TOUCH WITH US
               </h2>
-              <div class="mb-8 flex w-full max-w-[370px]">
-                <div class="text-gray-50 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
+              <div className="mb-8 flex w-full max-w-[370px]">
+                <div className="text-gray-50 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
                   <svg
                     width="24"
                     height="26"
                     viewBox="0 0 24 26"
-                    class="fill-current"
+                    className="fill-current"
                   >
                     <path
                       fill="#FFBD59"
@@ -38,20 +38,22 @@ const Contact = () => {
                     />
                   </svg>
                 </div>
-                <div class="w-full">
-                  <h4 class="text-gray-50 mb-1 text-xl font-bold">
+                <div className="w-full">
+                  <h4 className="text-gray-50 mb-1 text-xl font-bold">
                     Phone Number
                   </h4>
-                  <p class="text-logoYellow text-base">(+91) 912 373 7704</p>
+                  <p className="text-logoYellow text-base">
+                    (+91) 912 373 7704
+                  </p>
                 </div>
               </div>
-              <div class="mb-8 flex w-full max-w-[410px] sm:max-w-[410px]">
-                <div class="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
+              <div className="mb-8 flex w-full max-w-[410px] sm:max-w-[410px]">
+                <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
                   <svg
                     width="28"
                     height="19"
                     viewBox="0 0 28 19"
-                    class="fill-current"
+                    className="fill-current"
                   >
                     <path
                       fill="#FFBD59"
@@ -59,25 +61,25 @@ const Contact = () => {
                     />
                   </svg>
                 </div>
-                <div class="w-full">
-                  <h4 class="text-gray-50 mb-1 text-xl font-bold">
+                <div className="w-full">
+                  <h4 className="text-gray-50 mb-1 text-xl font-bold">
                     Email Address
                   </h4>
-                  <p class="text-logoYellow text-base">
+                  <p className="text-logoYellow text-base">
                     gouravbanerjee08082000@gmail.com
                   </p>
                 </div>
               </div>
-              <div class="mb-8 flex w-full max-w-[370px]">
-                <div class=" text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
+              <div className="mb-8 flex w-full max-w-[370px]">
+                <div className=" text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
                   <svg
                     // style="color: rgb(255, 189, 89);"
                     // xmlns="http://www.w3.org/2000/svg"
                     width="28"
                     height="19"
                     // fill="currentColor"
-                    // class="bi bi-instagram"
-                    class="fill-current"
+                    // className="bi bi-instagram"
+                    className="fill-current"
                     viewBox="0 0 16 16"
                   >
                     {" "}
@@ -87,18 +89,22 @@ const Contact = () => {
                     ></path>{" "}
                   </svg>
                 </div>
-                <div class="w-full">
-                  <h4 class="text-gray-50 mb-1 text-xl font-bold">Instagram</h4>
-                  <p class="text-logoYellow text-base">@mr.gouravbanerjee</p>
+                <div className="w-full">
+                  <h4 className="text-gray-50 mb-1 text-xl font-bold">
+                    Instagram
+                  </h4>
+                  <p className="text-logoYellow text-base">
+                    @mr.gouravbanerjee
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
-            <div class="relative rounded-lg bg-background p-8 shadow-md shadow-logoYellow sm:p-12">
-              <Image alt="" src={gourav} className="rounded-lg" />
+          <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="relative rounded-lg bg-background p-8 shadow-md shadow-logoYellow sm:p-12">
+              <Image alt="" src={gourav} classNameName="rounded-lg" />
               <div>
-                <span class="absolute -top-10 -right-9 z-[-1]">
+                <span className="absolute -top-10 -right-9 z-[-1]">
                   <svg
                     width="100"
                     height="100"
@@ -114,7 +120,7 @@ const Contact = () => {
                     />
                   </svg>
                 </span>
-                <span class="absolute -right-10 top-[90px] z-[-1]">
+                <span className="absolute -right-10 top-[90px] z-[-1]">
                   <svg
                     width="34"
                     height="134"
@@ -334,7 +340,7 @@ const Contact = () => {
                     />
                   </svg>
                 </span>
-                <span class="absolute -left-7 -bottom-7 z-[-1]">
+                <span className="absolute -left-7 -bottom-7 z-[-1]">
                   <svg
                     width="107"
                     height="134"

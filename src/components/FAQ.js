@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div className="max-w-screen-xl text-logoYellow mx-auto px-5 bg-background min-h-sceen">
       <div className="flex flex-col items-center">
-        <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQ</h2>
+        <h2 className="font-bold text-8xl mt-5 tracking-tight">FAQ</h2>
         <p className="text-neutral-500 text-xl mt-3">
           Frequenty asked questions
         </p>

@@ -10,9 +10,9 @@ export default function Page() {
     <>
       <Hero />
       <About />
+      <Details />
       <Venue />
       <Contact />
-      <Details />
       <FAQ />
       <Footer />
     </>

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Heading from "./Heading";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
-import "./venue.css";
+import "./Venue.css";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/autoplay";
