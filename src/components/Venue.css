@@ -1,0 +1,46 @@
+.bg-gray-mod {
+    background-color: var(--bg-color);
+}
+
+.img {
+    display: block;
+}
+
+.swiper-slide {
+    background-size: cover;
+    height: auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper .swiper-slide {
+    height: auto;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    /* padding-top: 50px; */
+    /* margin-top: 25px; */
+    top: -125px;
+
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.m {
+    height: 20rem;
+    margin-bottom: 7.5rem;
+    border-radius: 20px;
+    width: 80vw;
+    max-width: 100%;
+}
+
+#venue {
+    padding-top: 50px;
+    background-color: var(--bg-color);
+}
