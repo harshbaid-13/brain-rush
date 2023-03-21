@@ -13,6 +13,8 @@ module.exports = {
     colors: {
       logoYellow: "#ffbd59",
       background: "#0f172a",
+      navcol:"#F1B860",
+
       white: "#fff",
       gray: {
         50: "#f9fafb",
