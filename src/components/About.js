@@ -608,16 +608,21 @@ function About() {
                   Make your customers happy by giving services.
                 </h2>
                 <p className="text-gray-500 mb-8 text-base">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less.
+                  The annual intra-college gameshow is organised by the
+                  department of Computer Science & Engineering of MCKV Institute
+                  of Engineering, in association with IIC,MCKVIE.
                 </p>
                 <p className="text-gray-500 mb-12 text-base">
-                  A domain name is one of the first steps to establishing your
-                  brand. Secure a consistent brand image with a domain name that
-                  matches your business.
+                  BRAINRUSH promises to test the analytical skills,
+                  attentiveness and inquisitiveness of the students. It is a a
+                  game of sheer intelligence and knowledge that provides a
+                  platform for testing and sharpening the skill- set of the
+                  student.
                 </p>
-
+                <p className="text-gray-500 mb-12 text-base">
+                  The 6 tremendously successful runs, BRAINRUSH 2k23 promises to
+                  be truly enlightening, illuminating and loaded with adventure.
+                </p>
                 <h1 className="text-gray-50 font-bold sm:text-5xl text-3xl">
                   06th April 2K23
                 </h1>
