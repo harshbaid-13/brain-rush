@@ -31,9 +31,7 @@ const FAQ = () => {
               </span>
             </summary>
             <p className="text-neutral-600  text-white mt-3 group-open:animate-fadeIn">
-              The registration fee, if any, will be announced on the website and
-              social media channels. Make sure to check the details before
-              registering.
+              Yes , The registration fee is ₹75 per team.
             </p>
           </details>
         </div>
@@ -61,15 +59,14 @@ const FAQ = () => {
               </span>
             </summary>
             <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
-              Yes, you can register as an individual and you will be assigned to
-              a team on the day of the event.
+              No, you cannot register as an individual.
             </p>
           </details>
         </div>
         <div className="py-5">
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-              <span> How long will the event last?</span>
+              <span>Who can be my teammates?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -87,9 +84,7 @@ const FAQ = () => {
               </span>
             </summary>
             <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
-              The duration of the event will be announced on the website and
-              social media channels. Make sure to check the details before
-              registering.
+            Teams can be formed from the same department and same year , no Cross-Department registration is allowed.
             </p>
           </details>
         </div>
@@ -98,7 +93,7 @@ const FAQ = () => {
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
               <span>
                 {" "}
-                Will there be any practice quizzes or riddles before the event?
+                Will there be any breaks during the event?
               </span>
               <span className="transition group-open:rotate-180">
                 <svg
@@ -117,16 +112,14 @@ const FAQ = () => {
               </span>
             </summary>
             <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
-              We may offer practice quizzes or riddles before the event to help
-              you prepare. Stay tuned for updates on the website and social
-              media channels.
+            Yes, there will be scheduled breaks during the event to give you a chance to rest and recharge.
             </p>
           </details>
         </div>
         <div className="py-5">
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-              <span> Can I change my team members after registering?</span>
+              <span> Will refreshments be provided?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -144,16 +137,14 @@ const FAQ = () => {
               </span>
             </summary>
             <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
-              Unfortunately, team members cannot be changed after registration.
-              Make sure to choose your team members carefully before
-              registering.
+            Yes the teams which qualify the first round will be given refreshments during the lunch break.
             </p>
           </details>
         </div>
         <div className="py-5">
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-              <span> Will there be any breaks during the event?</span>
+              <span> How will the winners be announced?</span>
               <span className="transition group-open:rotate-180">
                 <svg
                   fill="none"
@@ -171,12 +162,11 @@ const FAQ = () => {
               </span>
             </summary>
             <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
-              Yes, there will be scheduled breaks during the event to give you a
-              chance to rest and recharge.
+            The winners will be announced on the day of the event itself.
             </p>
           </details>
         </div>
-        <div className="py-5">
+        {/* <div className="py-5">
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
               <span> Can I participate if I am not a college student?</span>
@@ -260,8 +250,8 @@ const FAQ = () => {
               out who won!
             </p>
           </details>
-        </div>
-        <div className="py-5">
+  </div> */}
+        <div className="py-5"> 
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
               <span>
