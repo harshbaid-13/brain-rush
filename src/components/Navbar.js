@@ -5,7 +5,7 @@ import Buttons from "./Buttons";
 
 const Navbar = () => {
   return (
-    <nav className=" px-2 sm:px-4 py-2.5 bg-background fixed w-full z-20 top-0 left-0 border-b border-gray-600">
+    <nav className=" px-2 sm:px-4 py-2.5 bg-background fixed w-full z-20 top-0 left-0 border-b border-logoYellow">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a
           href="https://brainrush2k23.vercel.app/"
