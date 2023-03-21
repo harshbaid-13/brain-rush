@@ -9,7 +9,7 @@ const FAQ = () => {
           Frequenty asked questions
         </p>
       </div>
-      <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
+      <div className="grid mb-6 lg:mb-16 md:grid-cols-1 divide-y divide-neutral-200 max-w-6xl mx-auto mt-8">
         <div className="py-5">
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
@@ -30,7 +30,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600  text-white mt-3 group-open:animate-fadeIn">
               The registration fee, if any, will be announced on the website and
               social media channels. Make sure to check the details before
               registering.
@@ -41,11 +41,10 @@ const FAQ = () => {
           <details className="group">
             <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
               <span>
-                {" "}
-                Can I register for the event as an individual if I don't have a
-                team?
+                Can I register for the event as an individual if I don&apos;t
+                have a team?
               </span>
-              <span className="transition group-open:rotate-180">
+              <span className="transition">
                 <svg
                   fill="none"
                   height={24}
@@ -61,7 +60,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               Yes, you can register as an individual and you will be assigned to
               a team on the day of the event.
             </p>
@@ -87,7 +86,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               The duration of the event will be announced on the website and
               social media channels. Make sure to check the details before
               registering.
@@ -117,7 +116,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               We may offer practice quizzes or riddles before the event to help
               you prepare. Stay tuned for updates on the website and social
               media channels.
@@ -144,7 +143,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               Unfortunately, team members cannot be changed after registration.
               Make sure to choose your team members carefully before
               registering.
@@ -171,7 +170,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               Yes, there will be scheduled breaks during the event to give you a
               chance to rest and recharge.
             </p>
@@ -197,7 +196,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               Unfortunately, this event is only open to college students at this
               time. However, we may offer other events that are open to the
               public in the future.
@@ -228,7 +227,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               No, the use of any external resources is strictly prohibited. The
               questions are designed to be answered using your own knowledge and
               skills.
@@ -255,7 +254,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               The winners will be announced on the website and social media
               channels after the event. Make sure to follow our channels to find
               out who won!
@@ -285,7 +284,7 @@ const FAQ = () => {
                 </svg>
               </span>
             </summary>
-            <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
+            <p className="text-neutral-600 text-white mt-3 group-open:animate-fadeIn">
               If you experience any technical difficulties during the event,
               please contact the event organizers immediately through the event
               platform or through the contact form on the website. We will do

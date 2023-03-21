@@ -604,7 +604,7 @@ function About() {
                 {/* <h1 className="text-gray-50 text-6xl font-bold sm:text-6xl mb-5">
                   About <span className="text-yellow-500">Event</span>
                 </h1> */}
-                <h2 className="text-gray-50 mb-8 text-4xl  ">
+                <h2 className="text-logoYellow mb-8 text-4xl  ">
                   Make your customers happy by giving services.
                 </h2>
                 <p className="text-gray-500 mb-8 text-base">
