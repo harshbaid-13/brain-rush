@@ -13,9 +13,6 @@ const Contact = () => {
         <div className="-mx-4 flex flex-wrap lg:justify-between">
           <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
             <div className="mb-12 max-w-[570px] lg:mb-0">
-              <h2 className="text-gray-50 mb-20 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                GET IN TOUCH WITH US
-              </h2>
               <div className="mb-8 flex w-full max-w-[370px]">
                 <div className="text-gray-50 mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
                   <svg
@@ -102,7 +99,7 @@ const Contact = () => {
           </div>
           <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
             <div className="relative rounded-lg bg-background p-8 shadow-md shadow-logoYellow sm:p-12">
-              <Image alt="" src={gourav} classNameName="rounded-lg" />
+              <Image alt="" src={gourav} className="rounded-lg" />
               <div>
                 <span className="absolute -top-10 -right-9 z-[-1]">
                   <svg

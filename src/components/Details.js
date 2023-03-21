@@ -7,7 +7,6 @@ const Details = () => {
   const [Modal, setModal] = useState(-1);
   const [Show, setShow] = useState("flex");
   const handleClick = () => {
-    setModal(-1);
     Show == "flex" ? setShow("hidden") : setShow("flex");
   };
   return (
@@ -68,7 +67,7 @@ const Details = () => {
       <section>
         <div className="py-8 ml-2 md:ml-5">
           <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
-            <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+            <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-4 md:px-14">
               <p className="text-3xl font-bold md:text-5xl mb-3 text-logoYellow uppercase tracking-loose">
                 Timeline
               </p>
