@@ -102,7 +102,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        10:00 - 10:30
+                      Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
                         Inauguration
@@ -116,10 +116,10 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        11:00 - 11:30
+                      Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
-                        CODIFY
+                      𝙱𝚛𝚊𝚒𝚗 𝚃𝚎𝚊𝚜𝚎𝚛
                       </h4>
                       <button
                         onClick={() => {
@@ -138,7 +138,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        12:50 - 13:20
+                      Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
                         Lunch Time
@@ -153,10 +153,10 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        13:20 - 14:00
+                      Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
-                        PSEUDO-SIAN
+                      𝙸𝚗𝚗𝚘𝚟𝚎𝚜𝚝
                       </h4>
                       <button
                         onClick={() => {
@@ -175,10 +175,10 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        14:15 - 15:15
+                      Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
-                        CODATOR
+                      𝙴𝚡𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝙴𝚡𝚝𝚛𝚊𝚟𝚊𝚐𝚊𝚗𝚣𝚊
                       </h4>
                       <button
                         onClick={() => {
@@ -193,13 +193,37 @@ const Details = () => {
                       </button>
                     </div>
                   </div>
+                  
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1 w-5/12 px-1 py-4 text-right">
+                      <p className="mb-3 text-base text-logoYellow">
+                      Time to be specified
+                      </p>
+                      <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
+                      𝚂𝚝𝚞𝚙𝚎𝚏𝚢
+                      </h4>
+                      <button
+                        onClick={() => {
+                          setModal(2);
+                          Show == "flex" ? setShow("hidden") : setShow("flex");
+                        }}
+                        data-modal-hide="small-modal"
+                        type="button"
+                        // className="text-sm md:text-base bg-transparent mr-auto hover:bg-yellow-500 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-1 px-2 md:py-2 md:px-4 border border-yellow-300 hover:border-transparent"
+                      >
+                        <Buttons title={"Explore Now"} />
+                      </button>
+                    </div>
+                  </div>
+
+                  <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4">
                       <p className="mb-3 text-base text-logoYellow">
-                        15:30 - 16:00
+                        Time to be specified
                       </p>
-                      <h4 className="mb-3 font-bold   text-gray-100 text-lg md:text-2xl text-left">
+                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl text-left">
                         Prize Distribution
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">

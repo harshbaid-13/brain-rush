@@ -605,7 +605,7 @@ function About() {
                   About <span className="text-yellow-500">Event</span>
                 </h1> */}
                 <h2 className="text-logoYellow mb-8 text-4xl  ">
-                  Make your customers happy by giving services.
+                  About BRAINRUSH
                 </h2>
                 <p className="text-gray-500 mb-8 text-base">
                   The annual intra-college gameshow is organised by the
@@ -624,7 +624,7 @@ function About() {
                   be truly enlightening, illuminating and loaded with adventure.
                 </p>
                 <h1 className="text-gray-50 font-bold sm:text-5xl text-3xl">
-                  06th April 2K23
+                  Date: 06th April 2K23
                 </h1>
               </div>
             </div>
