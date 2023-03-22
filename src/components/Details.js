@@ -102,7 +102,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                      Time to be specified
+                        Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
                         Inauguration
@@ -116,10 +116,10 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                      Time to be specified
+                        Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
-                      𝙱𝚛𝚊𝚒𝚗 𝚃𝚎𝚊𝚜𝚎𝚛
+                        𝙱𝚛𝚊𝚒𝚗 𝚃𝚎𝚊𝚜𝚎𝚛
                       </h4>
                       <button
                         onClick={() => {
@@ -138,7 +138,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                      Time to be specified
+                        Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
                         Lunch Time
@@ -153,10 +153,10 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                      Time to be specified
+                        Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
-                      𝙸𝚗𝚗𝚘𝚟𝚎𝚜𝚝
+                        𝙸𝚗𝚗𝚘𝚟𝚎𝚜𝚝
                       </h4>
                       <button
                         onClick={() => {
@@ -175,10 +175,10 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                      Time to be specified
+                        Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
-                      𝙴𝚡𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝙴𝚡𝚝𝚛𝚊𝚟𝚊𝚐𝚊𝚗𝚣𝚊
+                        𝙴𝚡𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝙴𝚡𝚝𝚛𝚊𝚟𝚊𝚐𝚊𝚗𝚣𝚊
                       </h4>
                       <button
                         onClick={() => {
@@ -193,19 +193,18 @@ const Details = () => {
                       </button>
                     </div>
                   </div>
-                  
                   <div className="mb-8 flex justify-between items-center w-full right-timeline">
                     <div className="order-1 w-5/12" />
-                    <div className="order-1 w-5/12 px-1 py-4 text-right">
+                    <div className="order-1 w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                      Time to be specified
+                        Time to be specified
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
-                      𝚂𝚝𝚞𝚙𝚎𝚏𝚢
+                        𝚂𝚝𝚞𝚙𝚎𝚏𝚢
                       </h4>
                       <button
                         onClick={() => {
-                          setModal(2);
+                          setModal(3);
                           Show == "flex" ? setShow("hidden") : setShow("flex");
                         }}
                         data-modal-hide="small-modal"
@@ -234,7 +233,7 @@ const Details = () => {
                   </div>
                 </div>
                 <Image
-                  className="mx-auto -mt-36 md:-mt-36"
+                  className="mx-auto -mt-20"
                   src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
                   alt="svg-modal"
                   width="300"
