@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 // import whatsapp from "src/images/whatsapp.svg";
 import gourav from "src/images/gourav.jpeg";
@@ -35,14 +36,18 @@ const Contact = () => {
                     />
                   </svg>
                 </div>
-                <div className="w-full">
+                <Link
+                  href="tel:+919123737704"
+                  target="_blank"
+                  className="w-full"
+                >
                   <h4 className="text-gray-50 mb-1 text-xl font-bold">
                     Phone Number
                   </h4>
                   <p className="text-logoYellow text-base">
                     (+91) 912 373 7704
                   </p>
-                </div>
+                </Link>
               </div>
               <div className="mb-8 flex w-full max-w-[410px] sm:max-w-[410px]">
                 <div className="mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
@@ -58,14 +63,18 @@ const Contact = () => {
                     />
                   </svg>
                 </div>
-                <div className="w-full">
+                <Link
+                  href="gouravbanerjee08082000@gmail.com"
+                  target="_blank"
+                  className="w-full"
+                >
                   <h4 className="text-gray-50 mb-1 text-xl font-bold">
                     Email Address
                   </h4>
                   <p className="text-logoYellow text-base">
                     gouravbanerjee08082000@gmail.com
                   </p>
-                </div>
+                </Link>
               </div>
               <div className="mb-8 flex w-full max-w-[370px]">
                 <div className=" text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">
@@ -86,14 +95,14 @@ const Contact = () => {
                     ></path>{" "}
                   </svg>
                 </div>
-                <div className="w-full">
+                <Link href="https://www.instagram.com/mr.gouravbanerjee/" target="_blank" className="w-full">
                   <h4 className="text-gray-50 mb-1 text-xl font-bold">
                     Instagram
                   </h4>
                   <p className="text-logoYellow text-base">
                     @mr.gouravbanerjee
                   </p>
-                </div>
+                </Link>
               </div>
             </div>
           </div>
