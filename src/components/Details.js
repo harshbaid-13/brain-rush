@@ -105,7 +105,7 @@ const Details = () => {
                         Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
-                        Inauguration
+                      𝙸𝚗𝚊𝚞𝚐𝚞𝚛𝚊𝚝𝚒𝚘𝚗
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                         Lighting of the Lamp & Dignitaries&apos; Speech
@@ -141,7 +141,7 @@ const Details = () => {
                         Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
-                        Lunch Time
+                      𝙻𝚞𝚗𝚌𝚑 𝚃𝚒𝚖𝚎
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                         Refreshments will be offered from our side to the
@@ -223,7 +223,7 @@ const Details = () => {
                         Time to be specified
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl text-left">
-                        Prize Distribution
+                      𝙿𝚛𝚒𝚣𝚎 𝙳𝚒𝚜𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                         The winners will be announced by our team and prizes
