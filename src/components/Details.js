@@ -18,12 +18,12 @@ const Details = () => {
           <div
             id="modal"
             className={
-              "fixed top-0 left-0 right-0 z-50 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center items-center " +
+              "fixed top-0 left-0 right-0 z-40 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center items-center backdrop-blur-lg " +
               Show
             }
           >
             <div className="relative w-full h-auto max-w-2xl ">
-              <div className="relative rounded-2xl shadow bg-gray-700">
+              <div className="relative rounded-2xl shadow bg-background">
                 <div className="flex items-center justify-between p-5 border-b rounded-t-2xl border-logoYellow border-2 ">
                   <h3 className="text-4xl font-medium text-white ">
                     {data[Modal].name}
@@ -32,7 +32,7 @@ const Details = () => {
                   <button
                     onClick={handleClick}
                     type="button"
-                    className="text-gray-400 bg-transparent rounded-md text-sm p-1.5 ml-auto inline-flex items-center border-logoYellow border-2 hover:bg-logoYellow hover:text-white"
+                    className="text-gray-400 bg-transparent rounded-md text-sm p-1.5 ml-auto inline-flex items-center border-logoYellow border-2 hover:bg-logoYellow hover:text-background"
                     data-modal-hide="small-modal"
                   >
                     <svg
@@ -66,7 +66,7 @@ const Details = () => {
           </div>
         </div>
       )}
-      <section className={Modal != -1 ? "blur-lg" : ""}>
+      <section>
         <div className="py-8 ml-2 md:ml-5">
           <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
             <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-4 md:px-14">

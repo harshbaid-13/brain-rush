@@ -2,10 +2,11 @@ import React from "react";
 import logo from "../images/logo.png";
 import Image from "next/image";
 import Buttons from "./Buttons";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className=" px-2 sm:px-4 py-2.5 bg-background fixed w-full z-20 top-0 left-0 border-b border-logoYellow">
+    <nav className=" px-2 sm:px-4 py-2.5 bg-background fixed w-full z-50 top-0 left-0 border-b border-logoYellow">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a
           href="https://brainrush2k23.vercel.app/"
@@ -21,7 +22,14 @@ const Navbar = () => {
         </a>
         <div className="mr-2 flex md:order-2">
           {/* <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button> */}
-          <Buttons title={"Register"} />
+          <Link
+            href={
+              "https://docs.google.com/forms/d/e/1FAIpQLSf6c6sfYiGuBZnkqBBv6puXNMc3Zmkwo38SML5p_3YISTbkaQ/viewform"
+            }
+            target="_blank"
+          >
+            <Buttons title={"Register"} />
+          </Link>
           <svg
             className="w-5 h-5 ml-2 md:mt-3 mt-1.5 -mr-1 text-logoYellow"
             fill="currentColor"
