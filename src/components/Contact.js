@@ -95,7 +95,11 @@ const Contact = () => {
                     ></path>{" "}
                   </svg>
                 </div>
-                <Link href="https://www.instagram.com/mr.gouravbanerjee/" target="_blank" className="w-full">
+                <Link
+                  href="https://www.instagram.com/mr.gouravbanerjee/"
+                  target="_blank"
+                  className="w-full"
+                >
                   <h4 className="text-gray-50 mb-1 text-xl font-bold">
                     Instagram
                   </h4>
@@ -119,8 +123,6 @@ const Contact = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
                       d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z"
                       fill="#FFBD59"
                     />
