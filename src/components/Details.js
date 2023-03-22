@@ -22,20 +22,20 @@ const Details = () => {
           >
             <div className="relative w-full h-full max-w-2xl md:h-auto">
               <div className="relative rounded-lg shadow bg-gray-700">
-                <div className="flex items-center justify-between p-5 border-b rounded-t border-gray-500">
-                  <h3 className="text-4xl font-medium text-white">
+                <div className="flex items-center justify-between p-5 border-b rounded-t border-logoYellow border-4 ">
+                  <h3 className="text-4xl font-medium text-white ">
                     {data[Modal].name}
                   </h3>
 
                   <button
                     onClick={handleClick}
                     type="button"
-                    className="text-gray-400 bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center hover:bg-gray-600 hover:text-white"
+                    className="text-gray-400 bg-transparent rounded-lg text-sm p-1.5 ml-auto inline-flex items-center border-logoYellow border-4 hover:bg-gray-600 hover:text-white"
                     data-modal-hide="small-modal"
                   >
                     <svg
                       aria-hidden="true"
-                      className="w-5 h-5"
+                      className="w-5 h-5 "
                       fill="currentColor"
                       viewBox="0 0 20 20"
                       xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +49,7 @@ const Details = () => {
                     <span className="sr-only">Close modal</span>
                   </button>
                 </div>
-                <div className="p-6 space-y-3">
+                <div className="p-6 border-logoYellow border-4 space-y-3">
                   <h2 className="mb-1 text-2xl font-semibold text-gray-100">
                     Rules
                   </h2>

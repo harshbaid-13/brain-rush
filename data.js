@@ -42,15 +42,5 @@ const eventDetails = [
       "We have some surprises waiting for you!🎁🤫",
     ],
   },
-  {
-    id: 4,
-    name: "STUPEFY",
-    desc: "Round - IV",
-    time: "14:15 - 15:15",
-    rules: [
-      "3 codes based on your preferred language among(C, Cpp, Javascript,  Java and Python)",
-      "CBT based (Infrastructure will be provided by us.)",
-    ],
-  },
 ];
 export default eventDetails;
