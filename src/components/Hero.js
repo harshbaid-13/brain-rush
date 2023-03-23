@@ -2,9 +2,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import logo from "src/images/logo.png";
-import Buttons from "./Buttons";
 import Countdown from "./Countdown";
-import Heading from "./Heading";
 const Hero = () => {
   // const [timerDays, setTimerDays] = useState("00");
   // const [timerHours, setTimerHours] = useState("00");
@@ -101,7 +99,7 @@ const Hero = () => {
           </a> */}
         </div>
         <div className="hidden lg:-mt-24 lg:col-span-5 lg:flex">
-          <Image src={logo} alt="logo" width="500" height="500" />
+          <Image priority src={logo} alt="logo" width="500" height="450" />
         </div>
       </div>
     </section>

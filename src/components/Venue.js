@@ -48,7 +48,6 @@ function Venue() {
                 <SwiperSlide>
                   <Image
                     className="rounded-xl h-4/5"
-                    placeholder="blur"
                     // src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%204.jpg"
                     //  src="https://i.ibb.co/Jsjjpft/My-project.jpg"
                     // src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
@@ -62,7 +61,6 @@ function Venue() {
                 <SwiperSlide>
                   <Image
                     className="rounded-xl"
-                    placeholder="blur"
                     // src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%205.jpg"
                     //src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
                     src={Venue2}
@@ -73,7 +71,6 @@ function Venue() {
                 <SwiperSlide>
                   <Image
                     className="rounded-xl"
-                    placeholder="blur"
                     //src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%201.jpg"
                     src={Venue3}
                     // src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
@@ -85,7 +82,6 @@ function Venue() {
                 <SwiperSlide>
                   <Image
                     className="rounded-xl"
-                    placeholder="blur"
                     // src="https://cdn.statically.io/gh/devfestkolkata2022/assets/main/taalkutir/Slide%2016_9%20-%202.jpg"
                     src={Venue4}
                     // src="https://i.ibb.co/hYQb1f6/mckv3.jpg"
