@@ -7,7 +7,7 @@ const eventDetails = [
     rules: [
       "We're gonna tease your brain with some riddles and aptitude!",
       "Reason your logic and grill your brains to get a solution.",
-      "Top 20 teams will be qualified to the net round!",
+      "Top 20 teams will be qualified to the next round!",
     ],
   },
   {
