@@ -5,7 +5,7 @@ const FAQ = () => {
     <div className="max-w-screen-xl text-logoYellow mx-auto px-5 bg-background min-h-sceen">
       <div className="flex flex-col items-center">
         <h2 className="font-bold text-8xl mt-5 tracking-tight">FAQ</h2>
-        <p className="text-neutral-500 text-xl mt-3">
+        <p className="text-neutral-500 text-white text-xl mt-3">
           Frequenty asked questions
         </p>
       </div>
