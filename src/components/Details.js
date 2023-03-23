@@ -12,7 +12,6 @@ const Details = () => {
   };
   return (
     <>
-      {console.log(Modal)}
       {Modal != -1 && (
         <div>
           <div
