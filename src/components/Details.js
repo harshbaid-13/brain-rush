@@ -17,7 +17,7 @@ const Details = () => {
           <div
             id="modal"
             className={
-              "fixed top-0 left-0 right-0 z-40 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center items-center backdrop-blur-lg " +
+              "fixed top-0 left-0 right-0 z-30 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center items-center backdrop-blur-lg " +
               Show
             }
           >

@@ -11,29 +11,23 @@ import Venue from "@/components/Venue";
 import logo_loader from "@/images/logo_loader.gif";
 import { useEffect, useState } from "react";
 export default function Page() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 7000);
+    }, 4500);
   }, []);
   return (
     <>
-      {loading ? (
-        <Loader gif={logo_loader} />
-      ) : (
-        <>
-          <Navbar />
-          <Hero />
-          <About />
-          <Details />
-          <Venue />
-          <Contact />
-          <FAQ />
-          <Footer />
-        </>
-      )}
+      {loading ? <Loader gif={logo_loader} /> : <></>}
+      <Navbar />
+      <Hero />
+      <About />
+      <Details />
+      <Venue />
+      <Contact />
+      <FAQ />
+      <Footer />
     </>
   );
 }

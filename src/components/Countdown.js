@@ -3,15 +3,15 @@ import React, { useEffect, useRef, useState } from "react";
 import { TimerContainer } from "./TimerContainer";
 
 const Countdown = () => {
-  const [timerDays, setTimerDays] = useState("00");
-  const [timerHours, setTimerHours] = useState("00");
-  const [timerMinutes, setTimerMinutes] = useState("00");
-  const [timerSeconds, setTimerSeconds] = useState("00");
+  const [timerDays, setTimerDays] = useState("0");
+  const [timerHours, setTimerHours] = useState("0");
+  const [timerMinutes, setTimerMinutes] = useState("0");
+  const [timerSeconds, setTimerSeconds] = useState("0");
 
   let interval = useRef();
 
   const setTimer = () => {
-    const countDownDate = new Date("April 06, 2023 09:00:00").getTime();
+    const countDownDate = new Date("April 06, 2023 09:30:00").getTime();
     interval = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
