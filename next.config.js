@@ -9,6 +9,7 @@ const nextConfig = {
         hostname: "flowbite.s3.amazonaws.com",
       },
       { hostname: "user-images.githubusercontent.com" },
+      { hostname: "see.fontimg.com" },
     ],
   },
 };
