@@ -76,8 +76,8 @@ const Details = () => {
               Working Process of Fest
             </p> */}
               <p className="text-sm md:text-base text-gray-50 mb-4">
-                Here&apos;s your guide to the brain rush 2023 process. Go
-                through all the steps to know the exact process of the fest.
+                Here&apos;s your guide to BrainRush 2K23. Go
+                through all the steps to know the exact process of the events.
               </p>
             </div>
             <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
@@ -103,7 +103,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        10:00 - 10:45
                       </p>
                       <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
                         𝙸𝚗𝚊𝚞𝚐𝚞𝚛𝚊𝚝𝚒𝚘𝚗
@@ -117,7 +117,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        11:00 - 12:00
                       </p>
                       <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
                         𝙱𝚛𝚊𝚒𝚗 𝚃𝚎𝚊𝚜𝚎𝚛
@@ -139,7 +139,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        12:30 - 13:30
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
                         𝙻𝚞𝚗𝚌𝚑 𝚃𝚒𝚖𝚎
@@ -154,7 +154,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        13:30 - 14:30
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         𝙸𝚗𝚗𝚘𝚟𝚎𝚜𝚝
@@ -176,7 +176,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        14:30 - 15:45
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         𝙴𝚡𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝙴𝚡𝚝𝚛𝚊𝚟𝚊𝚐𝚊𝚗𝚣𝚊
@@ -198,7 +198,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        15:45 - 16:30
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         𝚂𝚝𝚞𝚙𝚎𝚏𝚢
@@ -221,7 +221,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4">
                       <p className="mb-3 text-base text-logoYellow">
-                        Time to be specified
+                        16:30 - 16:45
                       </p>
                       <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl text-left">
                         𝙿𝚛𝚒𝚣𝚎 𝙳𝚒𝚜𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗
