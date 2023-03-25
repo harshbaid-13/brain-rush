@@ -13,7 +13,7 @@ module.exports = {
     colors: {
       logoYellow: "#ffbd59",
       background: "#0f172a",
-      navcol:"#F1B860",
+      navcol: "#F1B860",
 
       white: "#fff",
       gray: {
@@ -30,5 +30,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
