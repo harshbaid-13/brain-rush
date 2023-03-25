@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
+import Team from "@/components/Team";
 import Venue from "@/components/Venue";
 import logo_loader from "@/images/logo_loader.gif";
 import { useEffect, useState } from "react";
@@ -25,6 +26,7 @@ export default function Page() {
       <About />
       <Details />
       <Venue />
+      <Team />
       <Contact />
       <FAQ />
       <Footer />
