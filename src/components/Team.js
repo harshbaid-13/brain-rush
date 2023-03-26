@@ -11,7 +11,7 @@ import whatsapp from "src/images/whatsapp.png";
 const Team = () => {
     return (
         <>
-            <Heading title={"Team"} />
+            <Heading title={"Organising"} subtitle={" Team"} />
 
             <div className="text-white flex justify-center items-center ">
                 <ul className="flex gap-10 h-72 overflow-x-scroll scrollbar">
