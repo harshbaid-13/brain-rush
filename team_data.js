@@ -4,7 +4,7 @@ const teamDetails = [
     name: "Prabhavika",
     photo:
       "https://res.cloudinary.com/communichat/image/upload/v1679735207/Picsart_22-08-16_00-24-50-508_-_Prabhavika_Sree_Pamarthi_mm8vei.jpg",
-    emoji: "☕",
+    emoji: "☃️",
     whatsapp: "http://wa.me/+918583929223",
   },
   {
