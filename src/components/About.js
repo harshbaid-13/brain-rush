@@ -623,8 +623,8 @@ function About() {
                   The 6 tremendously successful runs, BRAINRUSH 2k23 promises to
                   be truly enlightening, illuminating and loaded with adventure.
                 </p>
-                <h1 className="text-logoYellow font-bold sm:text-5xl text-3xl">
-                  Date: 06th April 2K23
+                <h1 className="text-logoYellow font-bold sm:text-4xl text-2xl">
+                  Date: To be announced soon
                 </h1>
               </div>
             </div>

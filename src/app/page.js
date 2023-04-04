@@ -24,7 +24,7 @@ export default function Page() {
       {loading ? <Loader gif={logo_loader} /> : <></>}
       <Poster />
       <Navbar />
-      <Hero />
+      {loading ? <></> : <Hero />}
       <About />
       <Details />
       <Venue />

@@ -103,7 +103,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        10:00 - 10:45
+                        10:00 - 10:30
                       </p>
                       <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
                         𝙸𝚗𝚊𝚞𝚐𝚞𝚛𝚊𝚝𝚒𝚘𝚗
@@ -117,7 +117,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1  w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        11:00 - 12:00
+                        10:50 - 12:30
                       </p>
                       <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
                         𝙱𝚛𝚊𝚒𝚗 𝚃𝚎𝚊𝚜𝚎𝚛
@@ -139,22 +139,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        12:30 - 13:30
-                      </p>
-                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
-                        𝙻𝚞𝚗𝚌𝚑 𝚃𝚒𝚖𝚎
-                      </h4>
-                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                        Refreshments will be offered from our side to the
-                        qualifying teams.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="mb-8 flex justify-between items-center w-full right-timeline">
-                    <div className="order-1 w-5/12" />
-                    <div className="order-1 w-5/12 px-1 py-4 text-left">
-                      <p className="mb-3 text-base text-logoYellow">
-                        13:30 - 14:30
+                        12:45 - 13:45
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         𝙸𝚗𝚗𝚘𝚟𝚎𝚜𝚝
@@ -172,11 +157,26 @@ const Details = () => {
                       </button>
                     </div>
                   </div>
+                  <div className="mb-8 flex justify-between items-center w-full right-timeline">
+                    <div className="order-1 w-5/12" />
+                    <div className="order-1 w-5/12 px-1 py-4 text-left">
+                      <p className="mb-3 text-base text-logoYellow">
+                        13:45 - 14:45
+                      </p>
+                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
+                        𝙻𝚞𝚗𝚌𝚑 𝚃𝚒𝚖𝚎
+                      </h4>
+                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                        Refreshments will be offered from our side to the
+                        qualifying teams.
+                      </p>
+                    </div>
+                  </div>
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        14:30 - 15:45
+                        14:45 - 15:45
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         𝙴𝚡𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝙴𝚡𝚝𝚛𝚊𝚟𝚊𝚐𝚊𝚗𝚣𝚊
@@ -198,7 +198,7 @@ const Details = () => {
                     <div className="order-1 w-5/12" />
                     <div className="order-1 w-5/12 px-1 py-4 text-left">
                       <p className="mb-3 text-base text-logoYellow">
-                        15:45 - 16:30
+                        15:45 - 16:20
                       </p>
                       <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
                         𝚂𝚝𝚞𝚙𝚎𝚏𝚢
@@ -219,14 +219,14 @@ const Details = () => {
 
                   <div className="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                     <div className="order-1 w-5/12" />
-                    <div className="order-1  w-5/12 px-1 py-4">
+                    <div className="order-1  w-5/12 px-1 py-4 text-right">
                       <p className="mb-3 text-base text-logoYellow">
-                        16:30 - 16:45
+                        16:20 - 16:30
                       </p>
-                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl text-left">
+                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl ">
                         𝙿𝚛𝚒𝚣𝚎 𝙳𝚒𝚜𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗
                       </h4>
-                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                      <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 ">
                         The winners will be announced by our team and prizes
                         would be distributed.
                       </p>
@@ -234,7 +234,7 @@ const Details = () => {
                   </div>
                 </div>
                 <Image
-                  className="mx-auto -mt-20"
+                  className="mx-auto -mt-8"
                   src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
                   alt="svg-modal"
                   width="300"
