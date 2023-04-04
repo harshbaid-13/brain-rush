@@ -105,7 +105,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         10:00 - 10:30
                       </p>
-                      <h4 className="mb-3 font-bold  text-gray-100 text-lg md:text-2xl">
+                      <h4 className="mb-3 font-bold  text-gray-100 text-right text-sm md:text-2xl">
                         𝙸𝚗𝚊𝚞𝚐𝚞𝚛𝚊𝚝𝚒𝚘𝚗
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -119,7 +119,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         10:50 - 12:30
                       </p>
-                      <h4 className="mb-5 font-bold  text-gray-100 text-lg md:text-2xl">
+                      <h4 className="mb-5 font-bold  text-gray-100 text-sm md:text-2xl">
                         𝙱𝚛𝚊𝚒𝚗 𝚃𝚎𝚊𝚜𝚎𝚛
                       </h4>
                       <button
@@ -141,7 +141,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         12:45 - 13:45
                       </p>
-                      <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
+                      <h4 className="mb-5 font-bold text-gray-100 text-sm md:text-2xl">
                         𝙸𝚗𝚗𝚘𝚟𝚎𝚜𝚝
                       </h4>
                       <button
@@ -163,7 +163,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         13:45 - 14:45
                       </p>
-                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl">
+                      <h4 className="mb-3 font-bold text-gray-100 text-sm md:text-2xl">
                         𝙻𝚞𝚗𝚌𝚑 𝚃𝚒𝚖𝚎
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -178,7 +178,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         14:45 - 15:45
                       </p>
-                      <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
+                      <h4 className="mb-5 font-bold text-gray-100 text-sm md:text-2xl">
                         𝙴𝚡𝚙𝚛𝚎𝚜𝚜𝚒𝚘𝚗 𝙴𝚡𝚝𝚛𝚊𝚟𝚊𝚐𝚊𝚗𝚣𝚊
                       </h4>
                       <button
@@ -200,7 +200,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         15:45 - 16:20
                       </p>
-                      <h4 className="mb-5 font-bold text-gray-100 text-lg md:text-2xl">
+                      <h4 className="mb-5 font-bold text-gray-100 text-sm md:text-2xl">
                         𝚂𝚝𝚞𝚙𝚎𝚏𝚢
                       </h4>
                       <button
@@ -223,7 +223,7 @@ const Details = () => {
                       <p className="mb-3 text-base text-logoYellow">
                         16:20 - 16:30
                       </p>
-                      <h4 className="mb-3 font-bold text-gray-100 text-lg md:text-2xl ">
+                      <h4 className="mb-3 font-bold text-gray-100 text-sm md:text-2xl ">
                         𝙿𝚛𝚒𝚣𝚎 𝙳𝚒𝚜𝚝𝚛𝚒𝚋𝚞𝚝𝚒𝚘𝚗
                       </h4>
                       <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100 ">
