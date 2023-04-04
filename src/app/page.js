@@ -9,6 +9,7 @@ import Loader from "@/components/Loader";
 import Navbar from "@/components/Navbar";
 import Team from "@/components/Team";
 import Venue from "@/components/Venue";
+import Poster from "@/components/Poster/Poster";
 import logo_loader from "@/images/logo_loader.gif";
 import { useEffect, useState } from "react";
 export default function Page() {
@@ -21,6 +22,7 @@ export default function Page() {
   return (
     <>
       {loading ? <Loader gif={logo_loader} /> : <></>}
+      <Poster />
       <Navbar />
       <Hero />
       <About />

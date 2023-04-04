@@ -17,7 +17,7 @@ const Details = () => {
           <div
             id="modal"
             className={
-              "fixed top-0 left-0 right-0 z-30 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center items-center backdrop-blur-lg " +
+              "fixed top-0 left-0 right-0 z-20 w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal h-full justify-center items-center backdrop-blur-lg " +
               Show
             }
           >
@@ -76,8 +76,8 @@ const Details = () => {
               Working Process of Fest
             </p> */}
               <p className="text-sm md:text-base text-gray-50 mb-4">
-                Here&apos;s your guide to BrainRush 2K23. Go
-                through all the steps to know the exact process of the events.
+                Here&apos;s your guide to BrainRush 2K23. Go through all the
+                steps to know the exact process of the events.
               </p>
             </div>
             <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
