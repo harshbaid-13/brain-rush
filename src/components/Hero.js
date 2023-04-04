@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import logo from "src/images/logo.png";
 import Countdown from "./Countdown";
+import VideoPlayer from "./VideoPlayer";
 const Hero = () => {
   // const [timerDays, setTimerDays] = useState("00");
   // const [timerHours, setTimerHours] = useState("00");
