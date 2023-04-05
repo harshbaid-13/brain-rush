@@ -28,6 +28,7 @@ module.exports = {
         300: "#fde047",
         500: "#eab308",
       },
+      red: "#ff0000",
     },
   },
   plugins: [require("tailwind-scrollbar")],
