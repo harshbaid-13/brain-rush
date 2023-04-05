@@ -28,8 +28,19 @@ const Navbar = () => {
             }
             target="_blank"
           >
-            <Buttons title={"Register"} />
+            <Buttons title={"REGISTER"} />
           </Link>
+          {/* <button
+            onClick={() =>
+              document.getElementById("check-room").classList.remove("hidden")
+            }
+            href={
+              "https://docs.google.com/forms/d/e/1FAIpQLSf6c6sfYiGuBZnkqBBv6puXNMc3Zmkwo38SML5p_3YISTbkaQ/viewform"
+            }
+            target="_blank"
+          >
+            <Buttons title={"CHECK ROOM"} />
+          </button> */}
           <svg
             className="w-5 h-5 ml-2 md:mt-3 mt-1.5 -mr-1 text-logoYellow"
             fill="currentColor"

@@ -1,45 +1,9 @@
-"use client";
-import React, { useState, useEffect, useRef } from "react";
+import React from "react";
 import Image from "next/image";
 import logo from "src/images/logo.png";
 import Countdown from "./Countdown";
 import VideoPlayer from "./VideoPlayer";
 const Hero = () => {
-  // const [timerDays, setTimerDays] = useState("00");
-  // const [timerHours, setTimerHours] = useState("00");
-  // const [timerMinutes, setTimerMinutes] = useState("00");
-  // const [timerSeconds, setTimerSeconds] = useState("00");
-
-  // let interval = useRef();
-
-  // const setTimer = () => {
-  //   const countDownDate = new Date("April 06, 2023 09:00:00").getTime();
-  //   interval = setInterval(() => {
-  //     const now = new Date().getTime();
-  //     const distance = countDownDate - now;
-
-  //     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  //     const hours = Math.floor(
-  //       (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-  //     );
-  //     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  //     const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  //     if (distance < 0) {
-  //       clearInterval(interval.current);
-  //     } else {
-  //       setTimerDays(days);
-  //       setTimerHours(hours);
-  //       setTimerMinutes(minutes);
-  //       setTimerSeconds(seconds);
-  //     }
-  //   }, 1000);
-  // };
-  // useEffect(() => {
-  //   setTimer();
-  //   let x = interval.current;
-  //   return () => clearInterval(x);
-  // });
   return (
     <section className="bg-gray-900 md:mt-16 mt-32 ml-3 ">
       <div className="grid max-w-screen-xl px-4 py-8 mt-32 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -66,12 +30,6 @@ const Hero = () => {
         </div>
         <div className="lg:mt-4 lg:col-span-5 lg:flex">
           <VideoPlayer />
-          {/* <video className="rounded-xl" loop autoPlay muted controls>
-            <source
-              src="https://res.cloudinary.com/communichat/video/upload/v1680631353/WhatsApp_Video_2023-04-04_at_11.31.17_PM_iyde8q.mp4"
-              type="video/mp4"
-            />
-          </video> */}
         </div>
       </div>
     </section>
