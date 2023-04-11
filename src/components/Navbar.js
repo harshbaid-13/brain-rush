@@ -34,10 +34,6 @@ const Navbar = () => {
             onClick={() =>
               document.getElementById("check-room").classList.remove("hidden")
             }
-            href={
-              "https://docs.google.com/forms/d/e/1FAIpQLSf6c6sfYiGuBZnkqBBv6puXNMc3Zmkwo38SML5p_3YISTbkaQ/viewform"
-            }
-            target="_blank"
           >
             <Buttons title={"CHECK ROOM"} />
           </button> */}
