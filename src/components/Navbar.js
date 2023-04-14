@@ -22,21 +22,21 @@ const Navbar = () => {
         </a>
         <div className="mr-2 flex md:order-2">
           {/* <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button> */}
-          <Link
+          {/* <Link
             href={
               "https://docs.google.com/forms/d/e/1FAIpQLSf6c6sfYiGuBZnkqBBv6puXNMc3Zmkwo38SML5p_3YISTbkaQ/viewform"
             }
             target="_blank"
           >
             <Buttons title={"REGISTER"} />
-          </Link>
-          {/* <button
+          </Link> */}
+          <button
             onClick={() =>
               document.getElementById("check-room").classList.remove("hidden")
             }
           >
             <Buttons title={"CHECK ROOM"} />
-          </button> */}
+          </button>
           <svg
             className="w-5 h-5 ml-2 md:mt-3 mt-1.5 -mr-1 text-logoYellow"
             fill="currentColor"
