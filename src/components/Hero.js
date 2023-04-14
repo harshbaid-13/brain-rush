@@ -26,7 +26,7 @@ const Hero = () => {
               height={"72"}
             />
           </h1>
-          {/* <Countdown /> */}
+          <Countdown />
         </div>
         <div className="lg:mt-4 lg:col-span-5 lg:flex">
           <VideoPlayer />
