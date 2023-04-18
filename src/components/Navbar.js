@@ -31,11 +31,12 @@ const Navbar = () => {
             <Buttons title={"REGISTER"} />
           </Link> */}
           <button
-            onClick={() =>
-              document.getElementById("check-room").classList.remove("hidden")
-            }
+            // onClick={() =>
+            //   document.getElementById("check-room").classList.remove("hidden")
+            //}
           >
-            <Buttons title={"CHECK ROOM"} />
+            
+            <Buttons title="STAY TUNED" />
           </button>
           <svg
             className="w-5 h-5 ml-2 md:mt-3 mt-1.5 -mr-1 text-logoYellow"
