@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "src/images/logo.png";
-//import Countdown from "./Countdown";
+import Countdown from "./Countdown";
 import VideoPlayer from "./VideoPlayer";
 const Hero = () => {
   return (
@@ -26,7 +25,7 @@ const Hero = () => {
               height={"72"}
             />
           </h1>
-          {/* <Countdown /> */}
+          <Countdown />
         </div>
         <div className="lg:mt-4 lg:col-span-5 lg:flex">
           <VideoPlayer />

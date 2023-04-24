@@ -624,7 +624,7 @@ function About() {
                   be truly enlightening, illuminating and loaded with adventure.
                 </p>
                 <h1 className="text-logoYellow font-bold sm:text-4xl text-2xl">
-                  Date: To Be Announced Soon
+                  Date: 27th April, 2023
                 </h1>
               </div>
             </div>
