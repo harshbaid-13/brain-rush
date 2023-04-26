@@ -39,7 +39,7 @@ const RoomData = [
   {
     id: "Room A302",
     tokens: [
-      "14530: CODE ROCKERZ",
+      "14530",
       "14534",
       "14562",
       "14494",
